@@ -9,7 +9,6 @@ describe('selectSleigh', () => {
             { name: "Rudolph", consumption: 0.7 },
             { name: "Midu", consumption: 1 }
         ]
-        console.log('XXX ', selectSleigh(distance, sleighs))
         expect(selectSleigh(distance, sleighs)).toBe("Dancer")
     })
 })
